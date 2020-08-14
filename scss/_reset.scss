@@ -3,3 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url(../image/pexels-henry-&-co-1939485.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  // max-width: 960px;
+}
+div {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+}

@@ -2,33 +2,17 @@
 @import "./variables";
 
 header {
+  background: rgba(29, 29, 29, 0.116);
+  position: static;
   width: 100vw;
   height: 100px;
-  //   background-color: lighten($primaryColor, 50);
-  background: darken($color: blue, $amount: 20);
-  padding: 10px;
-  top: 0;
-  left: 0;
 
   img {
-    color: white;
+    position: relative;
   }
 
   ul {
     display: flex;
-    text-transform: capitalize;
-    // width: 5%;
-
-    li {
-      position: absolute;
-      //   right: 20px;
-      font-size: 25px;
-      color: #fff;
-      list-style: none;
-      //   width: 1000px;
-      top: 0%;
-      padding: 10px;
-      margin: 5%;
-    }
+    justify-content: flex-end;
   }
 }
