@@ -2,17 +2,82 @@
 @import "./variables";
 
 header {
-  background: rgba(29, 29, 29, 0.116);
-  position: static;
+  background-color: rgba($color: #969494, $alpha: 0.459);
+  position: sticky;
   width: 100vw;
-  height: 100px;
+  height: 90px;
+  text-transform: capitalize;
+  z-index: 1000;
+  font-family: monospace;
 
   img {
     position: relative;
+    margin-left: 5%;
+    margin-top: -10px;
   }
 
   ul {
     display: flex;
+    list-style: none;
+    width: 100vw;
+    top: 30%;
+    position: absolute;
+    font-size: 17px;
+    color: #fff;
     justify-content: flex-end;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5%;
+
+    li {
+      padding: 0.5%;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    // li:nth-child(3) {
+    //   background: blue;
+    // }
+    span {
+      position: relative;
+      top: 3px;
+    }
+  }
+}
+
+main {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100vw;
+  height: 500px;
+
+  div {
+    position: relative;
+    top: -114%;
+    margin-left: 5%;
+    width: 50%;
+    text-decoration: solid 14px red;
+  }
+
+  h1 {
+    font-size: 65px;
+    // outline: rgb(48, 48, 48) solid 1px;
+    color: rgb(182, 12, 12);
+  }
+  p {
+    font-size: 20px;
+    color: rgb(241, 239, 239);
+  }
+
+  button {
+    width: 25%;
+    padding: 10px;
+    margin-top: 3%;
+    font-family: monospace;
+    font-size: 18px;
+    border-collapse: collapse;
+    border: fade-in($color: #000000, $amount: 50);
+    font-weight: bolder;
   }
 }
