@@ -79,5 +79,8 @@ main {
     border-collapse: collapse;
     border: fade-in($color: #000000, $amount: 50);
     font-weight: bolder;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
