@@ -9,13 +9,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  // max-width: 960px;
   overflow-x: hidden;
+  filter: blur(10,10);
 }
 div {
   width: 100vw;
-  height: 100vh;
-  max-height: 2000px;
-  min-height: 2000px;
+  height: 100px;
+  // max-height: 100%;
+  // min-height: 100%;
   backdrop-filter: blur(3px);
 }
